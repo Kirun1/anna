@@ -1,0 +1,55 @@
+# ------ WordPress Core (never tracked) ------
+/wp-admin/
+/wp-includes/
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/cache/
+/wp-content/backups/
+/wp-content/wflogs/
+/wp-content/debug.log
+/wp-content/object-cache.php
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+lincense.txt
+readme.html
+xmlrpc.php
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+license.txt
+
+#------ Sensitive Files (never tracked) ------
+.env
+.env.*
+.htaccess
+wp-config.php
+wp-config-sample.php
+wp-config-*.php
+*.log
+
+# ----- IDE and OS files ------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ----- Composer files / Node ------
+vendor/
+node_modules/
+package-lock.json
+yarn.lock
+
+# ----- Temporary files ------
+*.tmp
+*.bak
+*.swp
+*.swo
